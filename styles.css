@@ -36,9 +36,38 @@ main {
 }
 
 .text {
-    font-size: 82px;
+    font-size: 60px;
     line-height: 1.5;
     font-weight: 700;
+    margin-top: -70px;
+}
+
+.slogan-br {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .slogan-br {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .text {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .text {
+        font-size: 30px;
+    }
 }
 
 footer {
@@ -61,7 +90,6 @@ img.email {
     width: 32px;
     top: 50%;
     transform: translateY(-50%);
-    fill: white;
 }
 
 a, .divider {
