@@ -33,10 +33,10 @@ main {
     position: fixed;
     top: 20px;
     right: 20px;
+}
 
-    img {
-        width: 120px;
-    }
+.logo img {
+    width: 120px;
 }
 
 .text {
