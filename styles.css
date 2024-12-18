@@ -121,6 +121,12 @@ img.email {
     transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 460px) {
+    img.email.responsive {
+        top: 75%;
+    }
+}
+
 a, .divider {
     color: #134a65;
     text-decoration: none;
